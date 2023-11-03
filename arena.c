@@ -25,6 +25,7 @@
 
 #include "permutation.h"
 
+#define MAP_HUGE_SHIFT 26
 extern int verbosity;
 extern int is_weighted_mbind;
 extern uint16_t mbind_weights[MAX_MEM_NODES];
